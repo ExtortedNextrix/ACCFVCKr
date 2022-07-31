@@ -25,3 +25,5 @@ Commands (no brackets):
 
   .disable (VICTUM'S TOKEN)
   
+  .isConnected
+  
