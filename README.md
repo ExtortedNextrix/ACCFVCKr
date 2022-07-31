@@ -14,6 +14,5 @@ now run the script by running run.bat.
 Commands (no brackets):
 
   .tokenfuck (VICTUM'S TOKEN)
-  
   .disable (VICTUM'S TOKEN)
   
