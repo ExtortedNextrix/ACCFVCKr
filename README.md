@@ -9,6 +9,8 @@ Python 3.9.6 Recommended.
 
 libraries = [ discord.py, requests, colorama, json ]
 
+REQUIRES SPECIFICALLY DISCORDPY VERSION 1.5.0!
+pip install discord.py==1.5.0
 
 
 Run requirements.bat to install libraries.
