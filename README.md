@@ -1,4 +1,9 @@
 # ACCFVCKr
+
+## THIS BOT IS OUTDATED DUE TO DISCORD API NOT SUPPORTING SELFBOTS ANYMORE
+## I WILL POST THE CLI VERSION THAT DOESNT UTILIZE THE DISCORD API AND ONLY REQUESTS
+
+
 A discord selfbot that is server side compatible that fucks up accounts and can also disable them.
 
 
